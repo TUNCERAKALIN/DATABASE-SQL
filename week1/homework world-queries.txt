@@ -16,7 +16,7 @@ What's the name of all the countries on the continent ‘North America’ ?
 
 What's the top 10 countries by SurfaceArea ?
 
-    SELECT name, SurfaceArea FROM city by SurfaceArea DESC LIMIT 10
+    SELECT name, SurfaceArea FROM city order by SurfaceArea DESC LIMIT 10
 
 What's the top 10 most populated cities?
 
